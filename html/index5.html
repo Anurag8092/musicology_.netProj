@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div>
+    <nav class="navbar">
+      <img class="mx-3" src="https://res.cloudinary.com/anurag-cloud/image/upload/v1645259788/Audio_.NETproj1/PicsArt_02-19-02.03.35_jebhzm.png"   width="100px" height="50px" alt="">
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li>
+            <a href="home.html">Home</a>
+          </li>
+          <li>
+            <a href="#artistdetails">About</a>
+          </li>
+          <li>
+            <a href="#tickets">Tickets</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img height="750px" src="https://cdn.bdc-tv.com/wp-content/uploads/2020/08/if-you-are-a-mohammad-rafi-fan-take-a-test-1280x720-1.jpg" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      </div>
+      <section id="artistdetails">
+      <!-- artists description -->
+     <div class="container art_des">
+         <div class="row">
+             <!-- artist image -->
+             <div class=" artist_img col-lg-6 col-md-12 col-sm-12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcgrp5e5eTSN74ECYVunzHvOANj-SGVakdkQ&usqp=CAU" width="300" height="300" alt="...">
+                <h1 style="color: #fff;" class="my-3 card-title">Mohammed Rafi </h1>
+              </div>
+
+             <!-- about artist -->
+             <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class=" art_card card">
+            <div class="card-body font1">
+              <p>Mohammed Rafi's Top Songs</p>
+              <div class="audio">
+                <audio controls>
+                  <source src="https://res.cloudinary.com/anurag-cloud/video/upload/v1645255555/Audio_.NETproj1/754-Chura-Liya-Hai-Tumne-Jo-Dil-Ko----28--_titdd4.mp3" type="audio/ogg">
+                </audio>
+                <audio controls>
+                  <source src="https://res.cloudinary.com/anurag-cloud/video/upload/v1645255552/Audio_.NETproj1/701-Teri-Mehfil-Tera-Jalva----28--_optvfo.mp3" type="audio/ogg">
+                </audio>
+                <audio controls>
+                  <source src="https://res.cloudinary.com/anurag-cloud/video/upload/v1645255561/Audio_.NETproj1/879-Jo-Ijaazat-Ho-To-Ek-Baat-128-KBPS-mp3_wgihir.mp3" type="audio/ogg">
+                </audio>
+              </div>
+              
+              <p> DOB : 24 December 1924 </p>
+              <p> Died On : 31 July 1980 </p>
+              <p class=" artist_txt card-text">Mohammed Rafi was an Indian playback singer and musician. He is considered one of the greatest and most influential singers of the Indian subcontinent. Rafi was notable for his versatility and range of voice; his songs varied from fast peppy numbers to patriotic songs, sad numbers to highly romantic songs, qawwalis to ghazals and bhajans to classical songs. He was known for his ability to mould his voice to the persona and style of the actor lip-syncing the song on screen in the movie. He received six Filmfare Awards and one National Film Award. In 1967, he was honored with the Padma Shri award by the Government of India. In 2001, Rafi was honoured with the "Best Singer of the Millennium" title by Hero Honda and Stardust magazine. In 2013, Rafi was voted for the Greatest Voice in Hindi Cinema in the CNN-IBN's poll. 
+                He recorded songs for over a thousand Hindi films and in many Indian languages as well as some foreign languages, though primarily in Urdu and Punjabi, over which he had a strong command. He recorded as many as 7,000 songs throughout his career, spanning several languages and dialects such as Konkani, Assamese, Bhojpuri, Odia, Bengali, Marathi, Sindhi, Kannada, Gujarati, Tamil, Telugu, Magahi, Maithili, etc. Apart from Indian languages, he also sang in some foreign languages, including English, Farsi, Arabic, Sinhala, Mauritian Creole, and Dutch. 
+                
+                </p>
+    
+            </div>
+          </div>
+            </div>
+         </div>
+     </div>
+     <section id="tickets">
+     <div class="container">
+      <form action="#" onsubmit="return valform()" >
+        <div style="background-color: #000;" class="card">
+          <p style="color: #fff;font-size: 25px;">Upcoming Concerts</p>
+          <ul>
+            <li>
+              Venue: Fifth Stadium
+            </li>
+            <li>
+              Time: 15:00
+            </li>
+            <li>
+              Price: 999/-
+            </li>
+          </ul>
+        </div>
+				<p class="font1">Fill in the below details in order to buy tickets for this show</p>
+        <h3 id="formsubmitmsg" class="text-success font-weight-bold"> </h3>
+        <div class="form-group">
+          
+          <input class="form-control" type="text" name="fname" id="fname" placeholder="First Name">
+          <span id="firstname" class="text-danger font-weight-bold"> </span>
+        </div>
+  
+        <div class="form-group">
+        
+          <input class="form-control" type="text" name="lname" id="lname" placeholder="Last Name">
+          <span id="lastname" class="text-danger font-weight-bold"> </span>
+        </div>
+  
+  
+        <div class="form-group">
+          <input class="form-control" type="email" name="email" id="email" placeholder="Email Address">
+          <span id="emailids" class="text-danger font-weight-bold"> </span>
+        </div>
+  
+        <div class="form-group">
+          <input class="form-control" type="text" name="phno" id="phno" maxlength="10" placeholder="Phone Number" >
+          <span id="mobileno" class="text-danger font-weight-bold"> </span>
+        </div>
+  
+        <div class="form-group">
+          <input class="form-control" type="date" name="dob" id="dob" max="2004-01-01" >
+          <span id="dateofb" class="text-danger font-weight-bold"> </span>
+        </div>
+  
+        <p>
+          Gender
+          <br>
+          <input  type="radio" name="g_radio" id="fradio" value="female">Female
+          <br>
+          <input  type="radio" name="g_radio" id="maleradio" value="male">Male
+          <br>
+          <input  type="radio" name="g_radio" id="othersradio" value="others">Others
+  <br>
+          <span id="gender" class="text-danger font-weight-bold"> </span>
+      </p>
+  
+      <p>
+        <select id="dropdown" >
+          <option value="select">
+            select
+        </option>
+            <option value="Jharkhand">
+                Jharkhand
+            </option>
+            <option value="West Bengal">
+                West Bengal
+            </option>
+            <option value="Andhra Pradesh">
+                Andhra Pradesh
+            </option>
+            <option value="Goa">
+                Goa
+            </option>
+            <option value="Assam">
+                Assam
+            </option>
+        </select>
+        <span id="selectstate" class="text-danger font-weight-bold"> </span>
+    </p>
+  
+        <button type="submit" name="submit" value="submit" class="btn btn-primary" >Buy Tickets</button>
+  
+  
+      </form><br><br>
+
+     </div>
+
+     <script src="/javascript/valform.js"></script>
+</body>
+</html>
